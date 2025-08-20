@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>bitebuddy | Smart Plate & App</title>
+  <meta name="description" content="bitebuddy provides clear information about our smart plate and mobile app: LED progress feedback, Wi-Fi setup, and nutrition insights." />
+  <meta property="og:title" content="bitebuddy | Smart Plate & App" />
+  <meta property="og:description" content="Information about the bitebuddy plate and app." />
+  <meta property="og:image" content="assets/images/BITEBUDDY.png" />
+  <link rel="icon" href="assets/images/Bear.png" />
+  <link rel="preload" href="assets/images/BITEBUDDY.png" as="image">
+  <link rel="preload" href="assets/images/Bear.png" as="image">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#top" aria-label="bitebuddy home">
+        <img src="assets/images/BITEBUDDY.png" alt="bitebuddy logo" class="logo" />
+      </a>
+
+      <nav class="menu" aria-label="Primary">
+        <a href="#plate">Plate</a>
+        <a href="#app">App</a>
+        <a href="#setup">Setup</a>
+        <a href="#privacy">Privacy</a>
+        <a href="#faq">FAQ</a>
+        <a href="#support" class="btn btn--ghost">Support</a>
+      </nav>
+
+      <button class="hamburger" aria-label="Open menu" aria-controls="drawer" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div id="drawer" class="drawer" hidden>
+      <a href="#plate">Plate</a>
+      <a href="#app">App</a>
+      <a href="#setup">Setup</a>
+      <a href="#privacy">Privacy</a>
+      <a href="#faq">FAQ</a>
+      <a href="#support" class="btn btn--ghost">Support</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="top" class="hero">
+    <div class="container hero__grid">
+      <div class="hero__copy">
+        <p class="kicker">Smart Plate & App</p>
+        <h1>Turn Every Bite into <span class="accent">FUN</span> with <b>BiteBuddy</b></h1>
+        <p class="sub">This page introduces only what our plate and app do—no sales, just clear product information.</p>
+        <div class="cta">
+          <a href="#plate" class="btn">Plate</a>
+          <a href="#app" class="btn btn--ghost">App</a>
+        </div>
+      </div>
+      <div class="hero__art">
+        <img src="assets/images/Bear.png" alt="bitebuddy mascot" class="bear" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Plate (Info only) -->
+  <section id="plate" class="section section--alt">
+    <div class="container">
+      <h2>Smart Plate — What it does</h2>
+      <div class="split">
+        <div>
+          <ul class="feature-list">
+            <li><strong>LED progress ring (24 px)</strong> shows 0–100% eaten in real time.</li>
+            <li><strong>Status indicators on the LED display</strong> — power, Wi-Fi, and battery are shown via ring patterns/animations (no separate status lights).</li>
+            <li><strong>Sensors</strong> estimate intake via weight/contact signals.</li>
+            <li><strong>Wi-Fi connectivity</strong> for app pairing and data sync.</li>
+            <li><strong>OTA firmware</strong> for wireless updates when available.</li>
+          </ul>
+        </div>
+        <div>
+          <div class="spec">
+            <h3>Tech specs (summary)</h3>
+            <dl>
+              <dt>Connectivity</dt><dd>2.4 GHz Wi-Fi (WPA2)</dd>
+              <dt>Display</dt><dd>24-pixel LED ring, simple animations</dd>
+              <dt>Power</dt><dd>USB-C charging / battery</dd>
+              <dt>Updates</dt><dd>Over-the-air (OTA)</dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- App (Info only) -->
+  <section id="app" class="section">
+    <div class="container">
+      <h2>Mobile App — What it does</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Wi-Fi setup</h3>
+          <p>Provision the plate from your phone by selecting your SSID or scanning a QR.</p>
+        </article>
+        <article class="card">
+          <h3>Meal logging</h3>
+          <p>Record meals quickly. Search foods to autofill nutrients and add photos.</p>
+        </article>
+        <article class="card">
+          <h3>Nutrition insights</h3>
+          <p>See daily intake versus recommendations at a glance.</p>
+        </article>
+        <article class="card">
+          <h3>Profiles & badges</h3>
+          <p>Separate profiles per child and earn badges for healthy habits.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Setup (Info only) -->
+  <section id="setup" class="section section--alt">
+    <div class="container">
+      <h2>Setup — Plate ↔ App</h2>
+      <ol class="steps">
+        <li><span>1</span> Power on the plate.</li>
+        <li><span>2</span> In the app, open <em>Wi-Fi Setup</em> and connect the plate to your home network.</li>
+        <li><span>3</span> Confirm connection on the <strong>LED display</strong> (e.g., a steady ring pattern indicates connected).</li>
+        <li><span>4</span> Open the <em>Plate Dashboard</em> in the app to view sensor data and LED progress.</li>
+      </ol>
+      <p class="sub" style="margin-top:12px">Note: Exact menus may differ by app version. This section is for information only.</p>
+    </div>
+  </section>
+
+  <!-- Privacy & Safety -->
+  <section id="privacy" class="section">
+    <div class="container">
+      <h2>Privacy & Safety</h2>
+      <div class="split">
+        <div>
+          <h3>Privacy (App & data)</h3>
+          <ul class="feature-list">
+            <li><strong>Local-first design:</strong> meal logs and profiles are stored on your device by default. Optional sync may be offered and is off unless you enable it.</li>
+            <li><strong>Minimal network use:</strong> used for device provisioning, optional updates, and features you explicitly start.</li>
+            <li><strong>No medical use:</strong> nutrition info is educational only and not a diagnosis.</li>
+            <li><strong>Clear permissions:</strong> camera/photos (meal photos), Wi-Fi (provisioning), storage (saving data).</li>
+            <li><strong>Data control:</strong> you can delete a child profile or clear local data from the app settings.</li>
+            <li><strong>Contact:</strong> questions about data? <a href="mailto:hello@bitebuddy.app">hello@bitebuddy.app</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Safety (Hardware use)</h3>
+          <ul class="feature-list">
+            <li><strong>No submersion:</strong> the electronics are not waterproof. Keep ports dry and do not dishwash the electronics unit.</li>
+            <li><strong>Cleaning:</strong> power off, then wipe with a soft damp cloth and mild dish soap; dry fully before use. Avoid solvents/abrasives.</li>
+            <li><strong>Charging:</strong> use a standard 5V USB-C charger. Fast-charge modes above device specs are not recommended.</li>
+            <li><strong>Cables around kids:</strong> route charging cables out of reach; supervise young children.</li>
+            <li><strong>Heat & damage:</strong> stop using and unplug if you notice swelling, odor, or unusual heat.</li>
+          </ul>
+        </div>
+      </div>
+      <p class="sub" style="margin-top:12px">Information above describes intended behavior. Details can vary by firmware/app version and model.</p>
+    </div>
+  </section>
+
+  <!-- FAQ (expanded) -->
+  <section id="faq" class="section section--alt">
+    <div class="container">
+      <h2>FAQ</h2>
+
+      <details class="faq">
+        <summary>Allergies — can the plate detect allergens?</summary>
+        <div>
+          The plate does not detect allergens. In the app you can tag foods with common allergens and see reminders,
+          but always check product labels and follow your clinician’s guidance for severe allergies.
+        </div>
+      </details>
+
+      <details class="faq">
+        <summary>Waterproofing — is it water-resistant?</summary>
+        <div>
+          The electronics unit is not designed for immersion or high-pressure water. Keep ports dry and avoid splashes.
+          If your model includes a removable food tray, follow the label on that tray for washing instructions.
+        </div>
+      </details>
+
+      <details class="faq">
+        <summary>Cleaning — how should I clean it?</summary>
+        <div>
+          1) Power off and unplug. 2) Wipe with a soft cloth dampened with warm water and a small amount of mild dish soap. 
+          3) Wipe again with clean water. 4) Dry completely. Avoid bleach, alcohol soaking, or abrasive pads, and never spray water into the ports.
+        </div>
+      </details>
+
+      <details class="faq">
+        <summary>Dishwasher — can I put it in?</summary>
+        <div>
+          Do not put the electronics unit in a dishwasher. If your model has a detachable food-contact tray labeled as dishwasher-safe,
+          place only that tray on the top rack. Check your unit’s label for confirmation.
+        </div>
+      </details>
+
+      <details class="faq">
+        <summary>Charging — how do I charge it and how long does it take?</summary>
+        <div>
+          Use a standard 5V USB-C charger and cable. The <strong>LED display</strong> shows charging status 
+          (e.g., a gentle pulsing pattern while charging and a steady ring when full on most units).
+          Actual time depends on battery capacity and adapter output. High-voltage fast-charge modes are not recommended.
+        </div>
+      </details>
+
+      <details class="faq">
+        <summary>Safety — is this a medical device?</summary>
+        <div>
+          No. bitebuddy provides educational feedback about eating progress and nutrition. It is not intended to diagnose, treat, or prevent disease.
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <!-- Support (Info only) -->
+  <section id="support" class="section">
+    <div class="container">
+      <h2>Support</h2>
+      <p class="lead">Questions about the plate or app? Reach us at <a href="mailto:hello@bitebuddy.app">hello@bitebuddy.app</a>.</p>
+      <div class="contact-side" style="max-width:520px">
+        <img src="assets/images/Bear.png" alt="bitebuddy mascot" class="bear bear--small" />
+        <ul class="contact-list">
+          <li>Product: bitebuddy smart plate & mobile app</li>
+          <li>Scope: informational website (no orders, no payments)</li>
+          <li>Language: English (default)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <img src="assets/images/BITEBUDDY.png" alt="bitebuddy" class="logo logo--sm" />
+        <p class="tiny">© <span id="year"></span> bitebuddy. All rights reserved.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="#plate">Plate</a>
+        <a href="#app">App</a>
+        <a href="#setup">Setup</a>
+        <a href="#privacy">Privacy</a>
+        <a href="#faq">FAQ</a>
+        <a href="#support">Support</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
